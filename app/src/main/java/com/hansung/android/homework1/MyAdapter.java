@@ -15,14 +15,16 @@ import java.util.ArrayList;
  */
 
 class MyItem {
-    int Icon; // image resource
-    String time; // text
-    String room;  // text
+    int menuIcon; // image resource
+    String menuName;
+    String menuPrice;
+    String menuGrade;
 
-    MyItem(int aIcon, String atime, String aroom) {
-        Icon = aIcon;
-        time = atime;
-        room = aroom;
+    MyItem(int aIcon, String aName, String aPrice, String aGrade) {
+        menuIcon = aIcon;
+        menuName = aName;
+        menuPrice = aPrice;
+        menuGrade = aGrade;
     }
 }
 
@@ -61,15 +63,15 @@ public class MyAdapter extends BaseAdapter {
         }
         // Set Icon
         ImageView icon = convertView.findViewById(R.id.iconItem);
-        icon.setImageResource(mItems.get(position).Icon);
+        icon.setImageResource(mItems.get(position).menuIcon);
 
         // Set Text 01
         TextView time =  convertView.findViewById(R.id.textItem1);
-        time.setText(mItems.get(position).time);
+        time.setText(mItems.get(position).menuName);
 
         // Set Text 02
         TextView room =  convertView.findViewById(R.id.textItem2);
-        room.setText(mItems.get(position).room);
+        room.setText(mItems.get(position).menuPrice);
 
         return convertView;
     }
