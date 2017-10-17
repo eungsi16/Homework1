@@ -11,25 +11,19 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:id="@+id/iconItem"
-        android:scaleType="fitStart"
-        android:padding="4dp"
-        android:layout_gravity="left"
-        android:gravity ="left"
-        android:layout_weight="1"/>
+        android:scaleType="fitXY"
+        android:padding="4dp" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="right"
-
         android:layout_weight="1">
 
         <TextView
             android:id="@+id/textItem1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
             android:gravity="right"
             android:layout_margin="5dp"
             android:layout_weight="1"
@@ -41,7 +35,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_gravity="right|bottom"
             android:gravity="right"
             android:textSize="16dp"
             android:textColor="@color/colorPrimary"
