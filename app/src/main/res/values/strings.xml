@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="t1">서울 성북구 삼선동 2가 389</string>
+    <string name="t2">오전 10시 30분 ~ 오후 7시</string>
+    <string name="t3">02-760-4499</string>
+    <string name="t4">MENU</string>
+    <string name="t5">학생식당</string>
+</resources>
