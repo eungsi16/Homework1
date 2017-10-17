@@ -13,14 +13,18 @@
         android:gravity="center"
         android:text="@string/t5"
         android:textSize="30dp"
-        android:textColor="@color/colorblack" />
+        android:textColor="@color/colorblack"
+        android:background="@android:color/holo_blue_bright"
+
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:orientation="horizontal"
         android:padding="5dp"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_green_light">
 
         <ImageView
             android:src="@drawable/s0"
@@ -111,6 +115,7 @@
         android:layout_gravity="left"
         android:gravity="left"
         android:textColor="@color/colorblack"
+        android:background="@android:color/holo_orange_light"
         android:textSize="20dp"
         android:visibility="visible"
         />
